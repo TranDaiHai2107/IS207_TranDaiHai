@@ -1,0 +1,117 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .intro-section {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #F3FDE8 ;
+            padding: 30px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .avatar {
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .avatar img {
+            border-radius: 10px;
+            border: 2px solid #ddd;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            clear: both;
+        }
+        
+        h1 {
+            color: #CAEDFF ;
+            text-align: center;
+            margin-bottom: 30px;
+             font-size: 24px;
+             -webkit-text-stroke: 1px black;
+             text-stroke: 1px black;
+        }
+        
+        h2 {
+            color: #D8B4F8 ;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            font-size: 24px;
+             -webkit-text-stroke: 1px black;
+             text-stroke: 1px black;
+        }
+        
+        h3 {
+            color: #FFC7EA ;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-size: 24px;
+             -webkit-text-stroke: 1px black;
+             text-stroke: 1px black;
+        }
+        
+        h4 {
+            color: black;
+            margin-top: 10px;
+            margin-bottom: 8px;
+            font-size: 24px;
+             -webkit-text-stroke: 1px black;
+             text-stroke: 1px black;
+        }
+        
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+            line-height: 1.5;
+        }
+        
+        .contact-section {
+            background-image: url('BG.jpg'); 
+            background-repeat: repeat;
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        .contact-section h2 {
+            color: black;
+            margin-top: 0;
+        }
+
+        input[type="submit"] {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        }
+        
+        nav, footer {
+    background: #d4f2f4;
+    color: #0b0848;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #0b0848;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+    color: #0b0848;
+}
